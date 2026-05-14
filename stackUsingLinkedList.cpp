@@ -63,3 +63,4 @@ public:
     {
         return top == NULL;
     }
+    };
