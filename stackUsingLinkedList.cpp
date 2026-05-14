@@ -41,3 +41,10 @@ public:
         top = top->next;
         cout << "Popped value: " << top->data << endl;
     }
+    
+    void peek()
+    {
+        if (top == NULL)
+        {
+            cout << "List is empty." << endl;
+        }
